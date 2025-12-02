@@ -1,4 +1,28 @@
-# ics-scada-fuzzer
+<!--
+ICS SCADA fuzzer, industrial control system security testing, OT protocol fuzzer,
+Modbus TCP exploit research, DNP3 fuzz testing, IEC 60870-5-104 fuzzing tool,
+OPC-UA fuzz tool cybersecurity, S7comm protocol security testing,
+industrial automation penetration testing, critical infrastructure cyber assessment,
+water treatment SCADA fuzzing, power grid cyber attack simulation,
+ICS protocol mutation engine, cyber physical system exploitation,
+PLC logic manipulation detection, OT blue team validation toolkit,
+industrial protocol anomaly testing, fuzzing safety system protocols,
+substation protocol fuzzing tool, OT penetration testing lab tool,
+ICS cyber range testing utility, ridpath GitHub research tools,
+critical infrastructure malware research, protocol-aware fuzzing engine,
+ICS vulnerability discovery platform, exploit dev for OT systems,
+authorized security testing only
+-->
+
+# ICS-SCADA-Fuzzer  
+Protocol Aware Industrial Control System Mutation Testing Toolkit
+
+![status: alpha](https://img.shields.io/badge/status-alpha-yellow)
+![stability: experimental](https://img.shields.io/badge/stability-experimental-orange)
+![license: MIT](https://img.shields.io/badge/license-MIT-blue)
+![domain: ICS/OT](https://img.shields.io/badge/domain-ICS%20%7C%20OT-critical)
+![detection: SIEM-tested](https://img.shields.io/badge/tested-SIEM%20integration-lightgrey)
+
 
 **Single-file fuzzer for core ICS/OT protocols**  
 Modbus/TCP • DNP3 • S7comm • IEC 60870-5-104 • OPC-UA
@@ -87,6 +111,40 @@ Test against a target
 | `-r`             | `<file.pcap>`                     | Replay from PCAP file                            |
 | `-p`             | `modbus \| dnp3 \| s7 \| iec104 \| opcua`  | Protocol to fuzz |
 
+## MITRE ATT&CK ICS Mapping
+
+| Technique | ID |
+|---------|--------|
+| Modify Controller Tasking | T0858 |
+| Manipulate I/O Points | T0831 |
+| Impair Process Control | T0828 |
+| Valid Protocol Abuse | T0843 |
+| Protocol Data Manipulation | T0837 |
+| Exploit ICS Protocols | T0861 |
+| Denial of Control | T0813 |
+
+> Mapping aligns to **MITRE ATT&CK for ICS v13**
+
+## Safety Notice
+
+Industrial equipment controls **physical processes**:
+
+- Safety relay trips  
+- Pump/generator mis-operation  
+- Arc-flash hazards  
+- Loss of cooling / overpressure conditions
+
+**Never** run against:
+- Production OT networks
+- Real utilities without change controls
+- Anything without explicit written authorization
+
+This tool is for:
+- Testbeds  
+- ICS cyber ranges  
+- Blue/red research labs  
+- PLC simulators  
+
 ### Disclaimer
 For authorized security testing only.
 OT environments control physical processes. Never use without explicit permission.
@@ -99,3 +157,12 @@ This project is licensed under the [MIT License](LICENSE).
 
 > Use this software **only** in environments you **own** or have **explicit authorization** to test.
 > Misuse of this tool is illegal and unethical.
+<!--
+ICS fuzzing engine, protocol exploitation toolkit, anomaly detection ICS,
+Modbus DNP3 S7 fuzzing tool download, air gapped OT red team tool,
+PLC fuzzing research, IEC-104 cybersecurity, OPC-UA node exploitation,
+industrial cybersecurity advanced tooling, ICS asset resilience testing,
+OT protocol fuzz mutation strategies, critical infrastructure cyber defense,
+suricata zeek detection testing feeds, SIEM alert validation toolkit,
+fuzz testing safety systems, ICS malware resilience testing
+-->
